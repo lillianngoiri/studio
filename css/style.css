@@ -2,6 +2,7 @@
 
     text-align: center;
     font-weight: bold;
+    color: white;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -15,4 +16,45 @@ text-align: center;
 }
 #logo {
     margin-top: 17%;
+}
+#logoo {
+    margin-top: 23%;
+}
+.service{
+    background-image: url(../images/s_image.jpg);
+    text-align: center;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 120%;
+    margin-top: 5%;
+  font-style: initial;
+  text-align: center;
+}
+.service h2 {
+text-align: center;
+color: white;
+}
+.service p {
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+h2 {
+    text-align: center;
+}
+#pdesign{
+    text-align: center;
+    padding: 4%;
+    margin-top: 5%;
+    font-size: smaller;
+    display: none;
+}
+#pdevelopment{
+    text-align: center;
+    padding: 4%;
+    margin-top: 5%;
+    font-size: smaller;
+    display: none;
 }
