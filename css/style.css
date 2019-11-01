@@ -4,3 +4,9 @@
     height: 100vh;
     background-image:url("../images/h_img.jpg");
 }
+.about{
+    margin-top: 50px;
+  margin-bottom: 50px;
+font-style: initial;
+text-align: center;
+}
