@@ -1,4 +1,7 @@
 #info{
+
+    text-align: center;
+    font-weight: bold;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -9,4 +12,7 @@
   margin-bottom: 50px;
 font-style: initial;
 text-align: center;
+}
+#logo {
+    margin-top: 17%;
 }
