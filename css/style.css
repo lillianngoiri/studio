@@ -58,3 +58,13 @@ h2 {
     font-size: smaller;
     display: none;
 }
+.column {
+    padding: 15px;
+    width: 100%;
+margin-top: 5%;
+margin-bottom: 10%;
+}
+.column img {
+    width: 100%;
+}
+.class
