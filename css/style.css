@@ -44,13 +44,14 @@ color: white;
 h2 {
     text-align: center;
 }
-#pdesign{
+/*#pdesign{
     text-align: center;
     padding: 4%;
     margin-top: 5%;
     font-size: smaller;
     display: none;
 }
+
 #pdevelopment{
     text-align: center;
     padding: 4%;
@@ -66,7 +67,7 @@ h2 {
     font-size: smaller;
     display: none
 }
-
+*/
 
 .column {
     padding: 15px;
