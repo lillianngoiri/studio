@@ -18,7 +18,7 @@ text-align: center;
     margin-top: 17%;
 }
 #logoo {
-    margin-top: 23%;
+    margin-top: 19%;
 }
 .service{
     background-image: url(../images/s_image.jpg);
@@ -27,7 +27,7 @@ text-align: center;
     background-position: center;
     background-size: cover;
     height: 50vh;
-    width: 120%;
+  
     margin-top: 5%;
   font-style: initial;
   text-align: center;
@@ -61,10 +61,46 @@ h2 {
 .column {
     padding: 15px;
     width: 100%;
-margin-top: 5%;
-margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .column img {
     width: 100%;
 }
-.class
+.container3 {
+    background-image: url(../images/c_image.jpg);
+    font-weight: bold;
+    background-size: cover;
+    color: white;
+    height: 70vh;
+    margin-top: 5%;
+  font-style: initial;
+  text-align: center;
+  font-weight: bold;
+  background-position: center;
+}
+
+.reach-us {
+    text-align: center;
+    padding: 15px;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: small;
+    font-display: bold;
+}
+
+  .col-sm-3 img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .form-control {
+      background: transparent;
+      border: white 1px solid;
+      color: white;
+  }
+  ::placeholder {
+    color: red;
+    opacity: 1;
+  }
