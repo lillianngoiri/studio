@@ -1,12 +1,15 @@
 
 
 
-   $(document).ready(function(){
+$(document).ready(function () {
 
-    $(".col-sm-3 img").hover(function(){
+    $(".col-sm-3 img").hover(function () {
         $(this).fadeTo("slow", 0.6);
-    })
-    
+    }, function () {
+        $(".col-sm-3 img").fadeTo("slow", 1);
+    });
+
+
     /*
         
         
@@ -73,43 +76,43 @@
           $("#pic8").fadeTo("slow", 0);
         });
     */
-    
 
-    $(".click1").click(function() {
-      $("#design").toggle();
-      $("#pdesign").toggle();
+
+    $(".click1").click(function () {
+        $("#design").toggle();
+        $("#pdesign").toggle();
     })
 
-    $(".click2").click(function() {
-      $("#development").toggle();
-      $("#pdevelopment").toggle();
+    $(".click2").click(function () {
+        $("#development").toggle();
+        $("#pdevelopment").toggle();
     })
-    $(".click3").click(function() {
-     $("#management").toggle();
-     $("#pmanagement").toggle();
+    $(".click3").click(function () {
+        $("#management").toggle();
+        $("#pmanagement").toggle();
     })
 
 
 
-    $("#row").submit(function(event) {
+    $("#row").submit(function (event) {
         event.preventDefault();
         var blanks = ["name", "mail", "message"];
         var input = [];
-        blanks.forEach(function(blank) {
-          input.push($("#" + blank).val());
+        blanks.forEach(function (blank) {
+            input.push($("#" + blank).val());
         });
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
         $("#row")[0].reset();
-        });
-    
-    $("#btn").submit(function(event) {
+    });
+
+    $("#btn").submit(function (event) {
         event.preventDefault();
         var blanks = ["name", "mail", "message"];
         var input = [];
-        blanks.forEach(function(blank) {
-          input.push($("#" + blank).val());
+        blanks.forEach(function (blank) {
+            input.push($("#" + blank).val());
         });
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
         $("#contacts")[0].reset();
     });
-   });
+});
