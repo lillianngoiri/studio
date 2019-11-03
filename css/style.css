@@ -10,15 +10,15 @@
 }
 .about{
     margin-top: 50px;
-  margin-bottom: 50px;
-font-style: initial;
-text-align: center;
+    margin-bottom: 50px;
+    font-style: initial;
+    text-align: center;
 }
 #logo {
-    margin-top: 17%;
+    margin-top: 10%;
 }
 #logoo {
-    margin-top: 19%;
+    margin-top: 15%;
 }
 .service{
     background-image: url(../images/s_image.jpg);
@@ -58,6 +58,16 @@ h2 {
     font-size: smaller;
     display: none;
 }
+
+#pmanagement{
+    text-align: center;
+    padding: 4%;
+    margin-top: 5%;
+    font-size: smaller;
+    display: none
+}
+
+
 .column {
     padding: 15px;
     width: 100%;
@@ -100,7 +110,5 @@ h2 {
       border: white 1px solid;
       color: white;
   }
-  ::placeholder {
-    color: red;
-    opacity: 1;
-  }
+
+ 

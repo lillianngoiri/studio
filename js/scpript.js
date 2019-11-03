@@ -1,4 +1,10 @@
+$(".col-sm-3 img").hover(function(){
+    $(this).fadeTo("slow", 0.6);
+})
 
+/*
+    
+    
     $("#port1").hover(function() {
       $("#work4").fadeTo("slow", 0.6);
       $("#pic1").fadeTo("slow", 1);
@@ -6,6 +12,9 @@
       $("#work4").fadeTo("slow", 1);
       $("#pic1").fadeTo("slow", 0);
     });
+
+
+ 
 
     $("#port2").hover(function() {
       $("#work3").fadeTo("slow", 0.6);
@@ -58,6 +67,7 @@
       $("#work8").fadeTo("slow", 1);
       $("#pic8").fadeTo("slow", 0);
     });
+    */
 
     $("#row").submit(function(event) {
         event.preventDefault();
@@ -69,8 +79,8 @@
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
         $("#row")[0].reset();
         });
-
-    $("#").submit(function(event) {
+    
+    $("#btn").submit(function(event) {
         event.preventDefault();
         var blanks = ["name", "mail", "message"];
         var input = [];
@@ -81,8 +91,4 @@
         $("#contacts")[0].reset();
     });
 
-    $("#").row(function(event) {
-        event.preventDefault();
-        var 
-    }
 
