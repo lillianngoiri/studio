@@ -94,25 +94,15 @@ $(document).ready(function () {
 
 
 
-    $("#row").submit(function (event) {
-        event.preventDefault();
-        var blanks = ["name", "mail", "message"];
-        var input = [];
-        blanks.forEach(function (blank) {
-            input.push($("#" + blank).val());
-        });
-        alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
-        $("#row")[0].reset();
-    });
-
     $("#btn").submit(function (event) {
         event.preventDefault();
         var blanks = ["name", "mail", "message"];
         var input = [];
         blanks.forEach(function (blank) {
-            input.push($("#" + blank).val());
+            input.push($("#btn" + blank).val());
         });
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
-        $("#contacts")[0].reset();
+        $("#btn")[0].reset();
     });
+
 });
