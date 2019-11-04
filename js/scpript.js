@@ -5,7 +5,7 @@ $(document).ready(function () {
     }, function () {
         $(".col-sm-3 img").fadeTo("slow", 1);
     });
-*/
+*/      $(".pic").hide();
 
         
         
@@ -71,6 +71,7 @@ $(document).ready(function () {
           $("#work8").fadeTo("slow", 1);
           $("#pic8").fadeTo("slow", 0);
         });
+
 
 
     $(".click1").click(function () {
