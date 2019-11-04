@@ -1,16 +1,12 @@
-
-
-
 $(document).ready(function () {
-
+/*
     $(".col-sm-3 img").hover(function () {
         $(this).fadeTo("slow", 0.6);
     }, function () {
         $(".col-sm-3 img").fadeTo("slow", 1);
     });
+*/
 
-
-    /*
         
         
         $("#port1").hover(function() {
@@ -75,7 +71,6 @@ $(document).ready(function () {
           $("#work8").fadeTo("slow", 1);
           $("#pic8").fadeTo("slow", 0);
         });
-    */
 
 
     $(".click1").click(function () {
@@ -94,15 +89,15 @@ $(document).ready(function () {
 
 
 
-    $("#btn").submit(function (event) {
+    $("#contacts").submit(function (event) {
         event.preventDefault();
         var blanks = ["name", "mail", "message"];
         var input = [];
         blanks.forEach(function (blank) {
-            input.push($("#btn" + blank).val());
+            input.push($("#" + blank).val());
         });
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
-        $("#btn")[0].reset();
+        $("#contact")[0].reset();
     });
 
 });
