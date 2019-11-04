@@ -5,7 +5,8 @@
 ## Authors Name.
 - LILLIAN NGOIRI
 ## BDD
-![BDD screenshot](images/Delani Studio.jpg)
+![screenshot](images/Delani-Studio.jpg)
+
 ## Setup Instruction
 - You need to have a github account so that you can deploy the project and get a live link.
 - You need to have have data connection so that the project can function well.
