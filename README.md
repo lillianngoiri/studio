@@ -1,9 +1,11 @@
 ## Project Name
 - STUDIO
 ## Project Description 
-- The project consists of a landing page that welcomes you to the Delani studio and has got some logos followed by a brief decription about Delani studio and bellow there is still a description of the services offered. There is still icons that shows what Delani studio does and a portfolio that contain image examples. Below there is a form that one may fill if they wish to contact the studio and there is also icons of their social media plat forms.
+- The project consists of a landing page that welcomes you to the Delani studio and has got some logos followed by a brief decription about Delani studio and bellow there is still a description of the services offered. There is still icons that shows what Delani studio does and a portfolio that contain image examples. Below there is a form that one may fill if they wish to contact the studio and there is also icons of their social media plat forms. 
 ## Authors Name.
 - LILLIAN NGOIRI
+## BDD
+![BDD screenshot](images/Delani Studio.jpg)
 ## Setup Instruction
 - You need to have a github account so that you can deploy the project and get a live link.
 - You need to have have data connection so that the project can function well.
