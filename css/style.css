@@ -27,7 +27,6 @@
     background-position: center;
     background-size: cover;
     height: 50vh;
-  
     margin-top: 5%;
   font-style: initial;
   text-align: center;
@@ -40,6 +39,23 @@ color: white;
     text-align: center;
     color: white;
     margin-top: 1%;
+}
+.pic {
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    opacity: 0%;
+    width: 80%;
+    border: 5px solid white;
+    padding: 4px;
+    margin: 5px;
+    height: 80%;
+    font-weight: bold;
+}
+.proj1 {
+    font-weight: 900;
+    color: white;
 }
 h2 {
     text-align: center;
